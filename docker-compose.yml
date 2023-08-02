@@ -3,5 +3,7 @@ services:
   app:
     build:
       context: .
+    volumes:
+      - .:/app
     tty: true
     stdin_open: true
